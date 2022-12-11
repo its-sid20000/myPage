@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT ME</title>
+</head>
+<body>
+    <h1>My name is Sudhanshu Chauhan</h1>
+    <p>My mobile number is 8905230024</p>
+    <br><hr>
+    <p>Please fill the form below</p>
+    <form action="mailto:sudhanshuchauhan30000@gmail.com" method="post" enctype="text/plain">
+                    
+        <div>
+            
+            <fieldset>
+            <legend><h3>Academic Information</h3></legend>
+                <div>
+
+                    <label for="information">Degree:</label>
+                    <select name="information" id="information">
+                        <option value="Masters">Master of Business Administration</option>
+                        <option value="Undergrad">Bachelor in Technology</option>
+                        
+                    </select>
+                </div><br>
+                <div>
+                    <label for="SID">Student ID</label>
+                    <input type="text" name="SID" id="SID">
+                </div><br>
+                <div>
+                    <label for="class">Classes attended</label>
+                    <select name="class" id="class" size="2">
+                        <option value="math">Math</option>
+                        <option value="physic">Physics</option>
+                        <option value="computer">computer</option>
+                    </select>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend><h3>Personal Data</h3></legend>
+                <div>
+                    <label for="fname">First Name:</label>
+                    <input type="text" name="fname" id="fname">
+                </div><br>
+                <div>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" name="lname" id="lname">
+                </div><br>
+                <div>
+                    <label for="gender">Gender:</label>
+                    <input type="radio" name="gender" id="male">Male
+                    <input type="radio" name="gender" id="female">Female
+                    <input type="radio" name="gender" id="others">Others
+                </div><br>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+                </div><br>
+                <div>
+                    <label for="age">give your age </label>
+                    <input type="range" id="age" min="15" max="50" value="22" step="10">
+                </div>
+                
+                
+            </fieldset>
+            <br>
+            <div>
+                <textarea name="T&C" id="T&C" cols="30" rows="10">TERMS AND CONDITIONS...</textarea>
+            </div><br>
+            <input type="submit" value="Send form">
+            <input type="reset" value="Clear form">
+        
+    </form>
+</body>
+</html>
